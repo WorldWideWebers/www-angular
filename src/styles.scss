@@ -1,0 +1,38 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background: #4a7dad;
+	margin: 0 !important;
+	font-family: 'Tahoma';
+	color: white;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+body a {
+	text-shadow: none;
+	color: #4a7dad;
+	transition: 0.3s all;
+}
+
+body a:hover {
+	color: white;
+}
+
+#app-body {
+	margin-top: 50px;
+}
+
+button {
+	background: black;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	transition: .3s all;
+	cursor: pointer;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+button:hover {
+	background: #4a7dad;
+}
