@@ -32,6 +32,7 @@ import { PostListComponent } from './blog/post-list/post-list.component';
 import { ViewPostComponent } from './blog/view-post/view-post.component';
 import { EditPostComponent } from './blog/edit-post/edit-post.component';
 import { CreatePostComponent } from './blog/create-post/create-post.component';
+import { PostComponent } from './blog/post/post.component';
 
 let resolvePersistenceEnabled: (enabled: boolean) => void;
 
@@ -40,7 +41,7 @@ export const persistenceEnabled = new Promise<boolean>((resolve) => {
 });
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, LoginComponent, BlogListComponent, PostListComponent, ViewPostComponent, EditPostComponent, CreatePostComponent],
+  declarations: [AppComponent, HomeComponent, LoginComponent, BlogListComponent, PostListComponent, ViewPostComponent, EditPostComponent, CreatePostComponent, PostComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -1,1 +1,9 @@
-<p>post-list works!</p>
+<div>
+  <div>
+      <h1 onClick={() => navigateToViewPost( post )}>{post.postTitle}</h1>
+          <p>
+              Posted <b>{post.createDate}</b> by <b>{post.userName}</b>
+          </p>
+          <ReactMarkdown>{post.postText.substr( 0, 100 )}</ReactMarkdown>
+      </div>
+</div>
